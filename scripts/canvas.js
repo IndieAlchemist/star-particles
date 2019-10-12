@@ -33,6 +33,9 @@ addEventListener('resize', () => {
     canvasTrails.width = innerWidth;
     canvasTrails.height = innerHeight;
 
+    canvasStars.width = innerWidth;
+    canvasStars.height = innerHeight;
+
     init();
 });
 
